@@ -265,12 +265,12 @@ a {
 }
 
 .service-hero-sec {
-    padding: 5em 0;
+    padding: 4em 0;
 }
 
 .service-hero-title {
     max-width: 90%;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     color: #F5F5F5;
     border: 4px solid #F5F5F5;
