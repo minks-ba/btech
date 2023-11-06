@@ -14,7 +14,7 @@ body {
     background: #FFFFFF;
 }
 
-.nav-container {
+.nav-container, .service-bg-img, .about-bg-img {
     background-image: url(./Images/hero_bg_image/pexels-min-an-1087727.jpg);
     height: auto;
     background-size: cover;
@@ -89,7 +89,6 @@ body {
 
 .pro-title {
     font-size: 1.7rem;
-    
     text-align: center;
     font-weight: bold;
     margin-bottom: .3em;
@@ -253,11 +252,6 @@ a {
 
 .service-bg-img {
     background-image: url(./Images/service_header_img/carlos-muza-hpjSkU2UYSU-unsplash.jpg);
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
 }
 
 .service-bg-color {
@@ -401,6 +395,51 @@ a {
   bottom: 0;
 }
 
+.about-bg-img {
+    background: url(./Images/about_header_img/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.founder-ceo-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.founder-text-wrapper {
+    align-self: center;
+}
+
+.pro-title-who {
+    font-size: 1.8rem;
+}
+
+.founder-ceo-text {
+    font-size: .9rem;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.founder-img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.founder-img img {
+    width: 100%;
+    border: 1px solid #FFFFFF;
+    border-radius: 100%;
+}
+
+.about-paragraph-wrapper {
+    padding: 0 1em;
+}
 
 @media (min-width: 820px) {
 
@@ -482,4 +521,9 @@ a {
         margin-bottom: 22em;
     }
     
+    .founder-ceo-wrapper {
+        padding-top: 2em;
+        gap: 8em;
+    }
+ 
 }
