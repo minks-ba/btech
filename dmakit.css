@@ -245,15 +245,13 @@ a {
 
 .service-nav-container {
     color: #F5F5F5;
-    background: #2A2A2A;
-    padding-bottom: 2em;
 }
 
 .service-text-wrapper {
     margin-bottom: 5em;
 }
 
-.service-bg-color {
+.service-bg-img {
     background-image: url(./Images/service_header_img/carlos-muza-hpjSkU2UYSU-unsplash.jpg);
     height: auto;
     background-size: cover;
@@ -262,8 +260,11 @@ a {
     text-align: center;
 }
 
-.service-hero-sec {
+.service-bg-color {
     background: rgb(0, 0, 0,0.5);
+}
+
+.service-hero-sec {
     padding: 5em 0;
 }
 
