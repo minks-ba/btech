@@ -258,8 +258,13 @@ a {
     background: rgb(0, 0, 0,0.5);
 }
 
+.mobile-nav-bar {
+    padding-bottom: 2em;
+}
+
 .service-hero-sec {
     padding: 4em 0;
+    display: none;
 }
 
 .service-hero-title {
@@ -500,6 +505,10 @@ a {
 
     .service-nav-container {
         padding-bottom: 0;
+    }
+
+    .service-hero-sec {
+        display: block;
     }
     
     .service-hero-title {
