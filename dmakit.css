@@ -37,8 +37,6 @@ body {
     color: #FFFFFF;
     font-size: 2rem;
     font-weight: bold;
-    /* border: 3px solid #C7B816;*/
-    padding: .2em;
     text-align: center; 
 }
 
@@ -260,7 +258,7 @@ body {
     object-fit: cover;
     background-image: url(./Images/hero_bg_image/andrew-kliatskyi-MaVm_A0xhKk-unsplash.jpg);
     background-repeat: no-repeat;
-    background-position: 15%;
+    background-position: 17%;
     padding: 2em 1em;
 }
 
