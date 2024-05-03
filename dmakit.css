@@ -90,7 +90,9 @@ body {
     font-weight: 800;
     border: 1px solid #C6FC0E;
     text-align: center;
-    margin: 2em auto;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 3em;
     padding: 1.2em 2em;
     text-transform: uppercase;
     background: #C6FC0E;
@@ -255,13 +257,11 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 1em;
-    background: #2A2A2A;
+    object-fit: cover;
+    background-image: url(./Images/hero_bg_image/andrew-kliatskyi-MaVm_A0xhKk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: 15%;
     padding: 2em 1em;
-}
-
-.modify-logo {
-    font-size: 1.8rem;
-    justify-content: center;
 }
 
 a {
@@ -519,7 +519,10 @@ a {
     }
 
     .footer-wrapper {
+        padding-top: 4em;
+        padding-bottom: 4em;
         flex-direction: row;
+        align-items: center;
     }
 
     .service-nav-container {
