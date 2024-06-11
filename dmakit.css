@@ -105,7 +105,7 @@ body {
 .profession {
     color: #2A2A2A;
     padding-top: 1.5em;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .pro-title {
@@ -275,7 +275,7 @@ a {
 }
 
 .service-text-wrapper {
-    margin-bottom: 4em;
+    margin-bottom: 1em;
 }
 
 
@@ -324,10 +324,8 @@ a {
 }
 
 .service-title-paragraph {
-    width: 95%;
-    margin: 0 auto;  
+    padding: .5em;  
     line-height: 2em;
-    text-align: center;
 }
 
 .service-items-container {
@@ -603,6 +601,8 @@ a {
 
     .service-title-paragraph {
         width: 70%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .service-items-container {
