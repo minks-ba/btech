@@ -1,14 +1,13 @@
 body {
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
 }
 
 .small-container {
-    max-width: 1200px;
+    max-width: 1366px;
     margin: 0 auto;
-    /* border: 1px solid fuchsia; */
 }
 
 .small-wrapper {
@@ -105,22 +104,21 @@ body {
 
 .profession {
     color: #2A2A2A;
-    padding-top: 2em;
-    margin-bottom: 3em;
+    padding-top: 1.5em;
+    margin-bottom: 2.5em;
 }
 
 .pro-title {
     font-size: 1.7rem;
     text-align: center;
     font-weight: bold;
-    margin-bottom: .3em;
+    margin-bottom: .2em;
 }
 
 .pro-underline {
     margin: 0 auto;
     border: 2px solid #C7B816; 
-    border-radius: 5em;
-    max-width: 4em;
+    max-width: 5em;
 }
 
 .pro-wrapper {
@@ -184,6 +182,7 @@ body {
 .catalog-title {
     font-size: 1rem;
     color: #2A4F48;
+    padding-bottom: .5em;
 }
 
 .catalog-img {
@@ -226,8 +225,8 @@ body {
 }
 
 .service-cta-paragraph {
-    font-family: "Jura", sans-serif;
-    font-weight: 800;
+    font-weight: 400;
+    opacity: 80%;
 }
 
 .service-cta-btn {
@@ -249,17 +248,25 @@ body {
 }
 
 .footer-wrapper {
+    background-image: url(./Images/hero_bg_image/andrew-kliatskyi-MaVm_A0xhKk-unsplash.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    padding: 2em 1em;
+}
+
+.footer-container {
     color: #c0bebe;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 1em;
-    object-fit: cover;
-    background-image: url(./Images/hero_bg_image/andrew-kliatskyi-MaVm_A0xhKk-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: 17%;
-    padding: 2em 1em;
+}
+
+.copy-right {
+    font-family: "Jura", sans-serif;
+    color: white;
+    text-align: center;
+    opacity: 50%;
+    margin-top: 3em;
 }
 
 a {
@@ -267,55 +274,67 @@ a {
     text-decoration: none;
 }
 
-.service-nav-container {
-    color: #F5F5F5;
-}
-
 .service-text-wrapper {
     margin-bottom: 4em;
 }
 
-.service-bg-img {
-    background-image: url(./Images/service_header_img/carlos-muza-hpjSkU2UYSU-unsplash.jpg);
-}
 
 .service-bg-color {
-    background: rgb(0, 0, 0,0.5);
+    background: #2A2A2A;
 }
 
-.service-hero-sec {
-    padding: 4em 0;
-    display: none;
+.service-hero-img {
+    background-image: url(./Images/service_catalog_images/LAN.jpg);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.service-hero-title {
-    max-width: 90%;
-    font-size: 1.8rem;
-    text-transform: uppercase;
+.service-hero-tint {
+    background: rgb(0,0,0,0.5);
+}
+
+.service-hero-text {
+    font-family: "Jura", sans-serif;
+    font-size: 1.5rem;
     color: #F5F5F5;
-    border: 4px solid #F5F5F5;
-    padding: 1em 0;
-    text-align: center;
-    margin: 0 auto;
+    padding: 1em;
+    margin: 0;
+    max-width: 500px;
+}
+
+.service-hero-btn {
+    font-size: 1rem;
+    font-family: "Jura", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #2A4F48;
+    border: 1px solid #C6FC0E;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 1em 2em;
+    border-radius: 5px;
+    background-color: #C6FC0E;
 }
 
 .service-pro-underline {
+    margin-top: .5em;
     border: 2px solid #C7B816;
 }
 
 .service-title-paragraph {
     width: 95%;
-    text-align: center;
-    margin: 0 auto; 
-    line-height: 1.5em;
+    margin: 0 auto;  
+    line-height: 2em;
 }
 
 .service-items-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3em;
-    margin-bottom: 4em;
+    gap: .5em;
+    margin-bottom: 2em;
 }
 
 .service-item {
@@ -324,154 +343,184 @@ a {
     align-items: center;
     flex-direction: column;
     width: 300px;
-    border: 1px solid #2A4F48;
 }
 
-.service-item-title {
-    font-size: .8rem;
-    color: #F5F5F5;
+.service-item-title h4 {
+    font-family: "Jura", sans-serif;
+    font-size: 1.2rem;
+    color: #2A4F48;
     text-align: center;
     width: inherit;
-    background: #2A4F48;
+    font-weight: bolder;
+    border-left: 4px solid #FFA035;
+    padding-left: .5em;
 }
 
 .service-item img {
     width: 25%;
-    padding: 1.8em 0;
+    padding: 1em 0;
     justify-self: center;
 }
 
 .service-item-text {
     color: #2A2A2A;
     text-align: center;
-    padding: 0 1em;
+    
     padding-bottom: 1em;
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
 
-.service-item-google {
-    border: 1px solid #761D85;
-}
-
-.google-color {
-    background: #761D85;
-}
-
-.service-item-media {
-    border: 1px solid #FCC60E;
-}
-
-.media-color {
+.testimonial-wrapper {
     color: #2A2A2A;
-    background: #FCC60E;
+    background-color: #4d4c4c;
+    padding-bottom: .5em;
+    margin-bottom: 4em;
 }
 
-.service-item-product {
-    border: 1px solid #20C1B8;
-}
-
-.product-color {
-    color: #2A2A2A;
-    background: #20C1B8;
-}
-
-.service-item-web {
-    border: 1px solid #093A99;
-}
-
-.web-color {
-    background: #093A99;
-}
-
-.market-slogan {
-    border: 2px solid #F5F5F5;
-    margin: 1em;
-}
-
-.title-slogan {
-    font-size: 2rem;
-    color: #2A4F48;
-    text-align: center;
-}
-
-.slogan-quote {
-    font-size: 2em;
-    color: #20C1B8;
-}
-
-.service-items-btn {
-    font-size: .7rem;
-    color: #F5F5F5;
-    text-align: center;
-    text-transform: uppercase;
-    border: 1px solid #00A082;
-    background: #00A082;
-    width: 70%;
-    margin: 0 auto;
-    padding: 1em 0;
-    margin-top: 4em;
-    margin-bottom: 12em;
-}
-
-.wave-svg {
-    position: relative;
-}
-
-.wave-svg img {
-  position: absolute;
-  bottom: 0;
-}
-
-.about-bg-img {
-    background: url(./Images/about_header_img/annie-spratt-OTy0mkqc2Yk-unsplash.jpg);
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-}
-
-.founder-ceo-wrapper {
+.testimonial-container {
+    margin: 2em;
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 3em;
+    gap: 3em;
 }
 
-.founder-text-wrapper {
-    align-self: center;
-}
-
-.pro-title-who {
-    font-size: 1.8rem;
-}
-
-.founder-ceo-text {
-    font-size: .9rem;
+.testimonial-title {
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    text-transform: capitalize;
     text-align: center;
-    margin-top: 2em;
+    padding-top: 1.2em;
+    padding-bottom: 1em;
+}
+
+.testimonial-item {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.testimonial-content {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.client-name {
+    font-size: 1.2rem;
+    color: #2A4F48;
+}
+
+.client-title {
+    font-size: 14px;
+    color: #6e8323;
+    font-weight: 550;
+}
+
+.client-comment {
+    line-height: 1.5;
+    padding: .5em 0;
+}
+
+.client-rat-wrapper {
+    display: flex;
+    gap: .5em;
+    justify-content: center;
+}
+
+.client-ratting {
+    width: 20px;
+}
+
+.about-bg {
+    background-image: url(./Images/about_header_img/about_bg.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    min-height: 200px;
+}
+
+.about-top-bg {
+    transform: rotate(180deg);
+}
+
+.btech-about-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 1.5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.about-founder-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-btech-title {
+    font-size: 2rem;
+    color: #2A2A2A;
+    padding-bottom: 1em;
+}
+
+.about-underline {
+    border-bottom: 4px solid #C7B816;
 }
 
 .founder-img {
+    font-size: .9rem;
+    color: #2A2A2A;
     width: 300px;
-    display: flex;
-    justify-content: center;
+    border: 2px solid #B3E3DA;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 550;
 }
 
 .founder-img img {
     width: 100%;
-    border: 1px solid #FFFFFF;
-    border-radius: 100%;
 }
 
-.about-paragraph-wrapper {
-    padding: 0 1em;
+.founder-title {
+    color: #2A2A2A;
+    padding: .5em 0;
 }
+
+.about-founder-paragraph {
+    line-height: 1.7;
+    margin-top: 3em;
+}
+
+.about-btn {
+    font-family: "Jura", sans-serif;
+    color: #352b0d;
+    margin: 4em auto;
+    padding: 1em 3em;
+    border: 1px solid #a38626;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    background-color: #FCC60E;
+    text-transform: uppercase;
+    padding: 1.2em 2em;
+    font-weight: 800;
+}
+
 
 @media (min-width: 820px) {
 
     .small-wrapper {
-        padding: 0 2em 1em;
+        padding: 0 2em;
+    }
+
+    .modify-small-wrapper {
+        padding-bottom: 1em;
     }
 
     .nav-bar {
@@ -516,37 +565,48 @@ a {
         margin-bottom: 4em;
     }
 
-    .footer-wrapper {
-        padding-top: 4em;
-        padding-bottom: 4em;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .service-nav-container {
+    .testimonial-title {
         padding-bottom: 0;
     }
 
-    .service-hero-sec {
-        display: block;
-    }
-    
-    .service-hero-title {
-        max-width: 400px;
-        margin: 0 auto;
+    .testimonial-container {
+        margin: 4em;
+        justify-content: space-between;
     }
 
+    .btech-about-content {
+        padding-top: 4em;
+    }
+
+    .about-founder-container {
+        justify-content: space-between;
+    }
+
+    .about-founder-paragraph {
+        margin-top: 5em;
+    }
+
+    .footer-wrapper {
+        padding-top: 3em;
+        padding-bottom: 3em;
+        flex-direction: column;
+    }
+
+    .service-hero-text {
+        padding-left: 2em;
+    }
+    
     .service-text-wrapper {
         margin-bottom: 5em;
     }
 
     .service-title-paragraph {
-        width: 600px;
+        width: 70%;
     }
 
     .service-items-container {
-        gap: 7em;
-        margin-bottom: 5em;
+        gap: 6em;
+        margin-bottom: 5em; 
     }
 
     .service-items-btn {
@@ -557,6 +617,12 @@ a {
     .founder-ceo-wrapper {
         padding-top: 2em;
         gap: 8em;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
     }
  
 }
