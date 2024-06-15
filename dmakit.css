@@ -361,6 +361,10 @@ a {
     justify-self: center;
 }
 
+.service-item .img-modify {
+    width: 23%;
+}
+
 .service-item-text {
     color: #2A2A2A;
     text-align: center;
@@ -377,7 +381,7 @@ a {
 }
 
 .testimonial-container {
-    margin: 2em;
+    margin: 3em 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -391,7 +395,6 @@ a {
     text-transform: capitalize;
     text-align: center;
     padding-top: 1.2em;
-    padding-bottom: 1em;
 }
 
 .testimonial-item {
@@ -569,7 +572,7 @@ a {
     }
 
     .testimonial-container {
-        margin: 4em;
+        margin: 3em;
         justify-content: space-between;
     }
 
