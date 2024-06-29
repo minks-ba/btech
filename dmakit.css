@@ -518,31 +518,6 @@ a {
     font-weight: 800;
 }
 
-.menu a:hover {
-    opacity: 75%;
-}
-
-.hero-btn:hover, 
-.service-hero-btn:hover {
-    color: #FFF;
-    font-weight: 800;
-    background: #305706;
-    cursor: pointer;
-    border: 1px solid #99CB00;
-    opacity: 100%;
-}
-
-.service-cta-btn:hover {
-    background: #005D64;
-    cursor: pointer;
-}
-
-a:hover, 
-a:active, 
-a:focus {
-    outline: none;
-    border: 0;
-}
 
 @media (min-width: 820px) {
 
@@ -656,6 +631,32 @@ a:focus {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
+    }
+
+    .menu a:hover {
+        opacity: 75%;
+    }
+    
+    .hero-btn:hover, 
+    .service-hero-btn:hover {
+        color: #FFF;
+        font-weight: 800;
+        background: #305706;
+        cursor: pointer;
+        border: 1px solid #99CB00;
+        opacity: 100%;
+    }
+    
+    .service-cta-btn:hover {
+        background: #005D64;
+        cursor: pointer;
+    }
+    
+    a:hover, 
+    a:active, 
+    a:focus {
+        outline: none;
+        border: 0;
     }
  
 }
