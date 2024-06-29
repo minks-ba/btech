@@ -537,6 +537,13 @@ a {
     cursor: pointer;
 }
 
+a:hover, 
+a:active, 
+a:focus {
+    outline: none;
+    border: 0;
+}
+
 @media (min-width: 820px) {
 
     .small-wrapper {
