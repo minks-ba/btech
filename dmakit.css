@@ -114,6 +114,10 @@ body {
     margin-bottom: .2em;
 }
 
+.pro-title-modify {
+    margin-top: 0.4em;
+}
+
 .pro-underline {
     margin: 0 auto;
     border: 2px solid #C7B816; 
