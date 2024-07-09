@@ -630,6 +630,11 @@ a {
         gap: 8em;
     }
 
+    
+.about-btn-modify {
+    margin-bottom: 6em;
+}
+
     .footer-container {
         justify-content: space-between;
         align-items: center;
